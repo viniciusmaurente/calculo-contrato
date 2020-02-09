@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoContratoTrabalho", "CalculoContratoTrabalho\CalculoContratoTrabalho.csproj", "{4476D547-2362-4E45-ABD1-47ECF8AEDDCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4476D547-2362-4E45-ABD1-47ECF8AEDDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4476D547-2362-4E45-ABD1-47ECF8AEDDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4476D547-2362-4E45-ABD1-47ECF8AEDDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4476D547-2362-4E45-ABD1-47ECF8AEDDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81F2AB39-FCF9-4860-BDF3-A3FBD5B7339F}
+	EndGlobalSection
+EndGlobal
