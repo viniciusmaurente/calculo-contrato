@@ -6,7 +6,7 @@ namespace CalculoContratoTrabalho
     {
         static void Main(string[] args)
         {
-         
+            Console.WriteLine("---------------------");
         }
     }
 }
