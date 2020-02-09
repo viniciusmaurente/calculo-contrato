@@ -9,8 +9,7 @@ namespace CalculoContratoTrabalho.Entities
         public WorkerLevel Level { get; set; }
         public double BaseSalary { get; set; }
         public Department Department { get; set; }
-
-        public List<HourContract> Contracts { get; set; } = new List<HourContract>();
+        public List<HourContract> Contracts { get; private set; } = new List<HourContract>();
 
         public Worker() { 
         
@@ -22,6 +21,7 @@ namespace CalculoContratoTrabalho.Entities
             Level = level;
             BaseSalary = baseSalary;
             Department = department;
+            Contracts = new List<HourContract>();
         }
 
         public void AddContract(HourContract contract) {
